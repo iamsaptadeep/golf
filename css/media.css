@@ -1,0 +1,85 @@
+@media (max-width:376px){
+
+     .baner-box{
+     	width: 100%;
+     	padding-top: 35%;
+   }
+
+    .mid-container{
+    	grid-template-columns: auto;
+    }
+    .img-mid h2{
+    	text-align: center;
+    }
+    .txt-mid p{
+    	text-align: center;
+    }
+    .mid-img{
+    	width: 100%;
+    }
+    .mid-txt{
+    	width: 90%;
+    }
+    .txt-container{
+    	width: 90%;
+    	margin: auto;
+    }
+    .mid-txt h2{
+    	font-size: 30px;
+    	text-align: center;
+    	padding-top: 50px;
+    }
+    .mid-txt h3{
+    	text-align: center;
+    	font-size: 25px;
+    	padding-top: 70px;
+    }
+    .mid-txt p{
+    	text-align: center;
+    	font-size: 15px;
+    }
+    .gbox-container{
+    	grid-template-columns: auto auto;
+    }
+    .mid-gbox-container{
+    	grid-template-columns: auto auto;
+    }
+    .txt-box h3{
+    	font-size: 18px;
+    }
+    .txt-box p{
+    	font-size: 14px;
+    	text-align: justify;
+    }
+    .low-b-box{
+    	width: 90%;
+    	padding-top: 20px;
+    }
+    .low-b-box h1{
+    	text-align: center;
+    	font-size: 30px;
+    	padding-bottom: 25px;
+    }
+    .low-btn{
+    	height: 35px;
+    	font-size: 15px;
+    }
+    #lower-text{
+    	width: 80%;
+    }
+    .gbox-container{
+    	grid-template-columns: auto;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}

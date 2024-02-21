@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	font-family: 'Nunito', sans-serif;
+}
+.clr{
+	clear: both;
+}
+
+#header{
+	width: 100%;
+	height: auto;
+	background-color: #679131;
+	position: fixed;
+}
+.header-continer{
+	width: 90%;
+	height: auto;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+.logo img{
+	width: 40px;
+	padding-top: 20px;
+}
+.menu{
+    padding: 20px;
+}
+.menu li{
+	display: inline;
+}
+.menu li a{
+	text-decoration: none;
+	color: #fff;
+	margin: 25px;
+	font-size: 20px;
+}
+.menu li a:hover{
+	background-color: #222;
+}
+#banner{
+	width: 100%;
+	height: 100vh;
+	background: url(../images/2.jpg) no-repeat fixed;
+	background-size: cover;
+}
+.overlay{
+	width: 100%;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+.banner-continer{
+	width: 90%;
+	margin: auto;
+	text-align: center;
+}
+
+.baner-box{
+	width: 40%;
+	margin: auto;
+	padding-top: 10%;
+}
+.baner-box h1{
+	font-size: 50px;
+	color: #fff;
+}
+.baner-box p{
+	font-size: 15px;
+	color: white;
+}
+.banner-btn{
+	width: 120px;
+	height: 40px;
+	border: 2px solid white;
+	background-color: transparent;
+	border-radius: 10px;
+	color: #fff;
+	font-weight: 800;
+	margin-top: 30px;
+}
+
+#middle-1{
+	width: 100%;
+	height: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.mid-container{
+	width: 90%;
+	height: auto;
+	margin: auto;
+	display: grid;
+	grid-template-columns: 30% 30% 30%;
+	grid-column-gap: 56px;
+}
+.mid-gbox{
+	width: 100%;
+	margin: auto;
+}
+.mid-gbox img{
+	width: 100%;
+	height: 100%;
+	padding-top: 40px;
+}
+.mid-gbox h2{
+	padding-top: 10px;
+}
+.mid-gbox p{
+	padding-top: 10px;
+	padding-bottom: 45px;
+}
+#mid-2{
+	width: 100%;
+	height: auto;
+}
+.mid-img{
+	width: 50%;
+	float: left;
+}
+.mid-img img{
+	height: 100%;
+	width: 100%;
+}
+.txt-container{
+	width: 90%;
+	margin: auto;
+	margin-left: 20px;
+}	
+.mid-txt{
+	width: 50%;
+	float: right;
+	background-color: #e0ffee;
+}
+.mid-txt h2{
+	font-size: 40px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+
+}
+.mid-txt h3{
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+}
+.mid-txt p{
+	font-size: 18px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+}
+
+#mid-3{
+	width: 100%;
+	height: auto;
+	padding-top: 20px;
+}
+.mid-gbox-container{
+	width: 90%;
+	height: auto;
+	margin: auto;
+	display: grid;
+	grid-template-columns: 30% 30% 30%;
+	grid-column-gap: 35px;
+	grid-row-gap: 40px;
+}
+.gbox-container{
+	width: 90%;
+	height: auto;
+	margin: auto;
+	display: grid;
+	grid-template-columns: 30% 30% 30%;
+	grid-column-gap: 35px;
+	grid-row-gap: 40px;
+}
+.gbox{
+	width: 100%;
+	margin: auto;
+}
+.img-box{
+	padding: 10px 10px;
+	padding-bottom: 10px;
+}
+.img-box p{
+	font-size: 14px;
+	float: right;
+	padding-top: 15px;
+}
+.img-box img{
+	width: 45px;
+	height: 45px;
+}
+.txt-box h3{
+	padding: 10px 10px;
+	font-size: 20px;
+	color: #4aba1a;
+	cursor: pointer;
+}
+.txt-box p{
+	padding: 10px 10px;
+}
+
+
+#low-banner{
+	width: 100%;
+	height: 70vh;
+	background: url(../images/2.jpg) no-repeat fixed;
+	background-size: cover;
+}
+.low-b-overlay{
+	width: 100%;
+	height: 70vh;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+.low-b-container{
+	width: 80%;
+	height: auto;
+	margin: auto;
+	padding-top: 125px;
+}
+.low-b-box{
+	width: 40%;
+	margin: auto;
+	padding-top: 40px;
+	background-color: #fff;
+	text-align: center;
+	padding-bottom: 40px;
+}
+.low-b-box h1{
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+.low-btn{
+	width: 30%;
+	height: 50px;
+	border: 2px solid orange;
+	font-size: 18px;
+	border-radius: 6px;
+	cursor: pointer;
+}
+.low-btn:hover{
+	background-color: yellow;
+}
+
+
+#lower-text{
+	width: 40%;
+	margin: auto;
+	padding: 70px 10px;
+	text-align: center;
+}
+.low-gbox{
+	width: 100%;
+	margin: auto;
+	background-color: #ddebde;
+}
+
+#footer{
+	width: 100%;
+	height: 20vh;
+	background-color: #1d361b;
+	margin-top: 50px;
+}
